@@ -1,0 +1,109 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #bfbfbf url(https://www.publicdomainpictures.net/pictures/250000/nahled/clean-blue-background-2.jpg);
+    background-size: cover;
+
+    font-family: 'Poppins',sans-serif;
+}
+.giris{/*Ortadaki box*/
+    text-align:center;
+    width:350px;
+    box-sizing: border-box;
+    padding: 40px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 0 20px;
+
+}
+.giris h2{
+    margin:0 0 10px;
+    padding:8px;
+    font-size:30px;
+    text-transform: uppercase;
+
+}
+
+.giris .pc{
+    /*giriş ekranı kenar boşlukları*/
+    margin:11px;
+    margin-bottom:15px;
+
+    
+}
+    .giris .pc input {
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        box-sizing: border-box;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid #000;
+        border-radius: 40px;
+        /*butonların ve textboxların ayarları*/
+    }
+.giris .pc span{
+    position: absolute;
+    top:12px;
+    left:20px;
+    padding:0;
+    transition: 0.10s;
+    pointer-events: none;
+    background:#fff;
+    text-transform: uppercase;
+}
+/*.giris .pc input:focus ~ span,
+.giris .pc input:valid ~ span{
+    top:-12px;
+    left:12px;
+    font-size:12px;
+    padding:2px 4px;
+    border:1px solid #000;
+    background:#808080;
+
+}*/
+
+/*Giriş butonu ayar*/
+.giris .pc input[type="submit"]{
+    background: #bfbfbf;
+    border: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight:600;
+
+}
+/*giriş butonunun üstüne gelindiğin de*/
+.giris .pc input[type="submit"]:hover{
+    background: #189CFC;
+}
+    .giris a {
+        color: #262626;
+        text-decoration: none;
+        display: block;
+        text-align:left;
+        color: #666;
+    }
+.giris a span{
+    color:#262626;
+    font-weight:600;
+    margin:auto;
+    padding:5px;/*ayarlanacak*/
+}
+    .giris input[type="text"] {
+        border: solid 2px;
+        border-color:#189CFC;
+        width:100%;
+    }
+    .giris input[type="password"] {
+        border: solid 2px;
+        border-color: #189CFC;
+
+    }
