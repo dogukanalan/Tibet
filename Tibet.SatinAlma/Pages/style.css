@@ -11,7 +11,8 @@ body {
 
     font-family: 'Poppins',sans-serif;
 }
-.giris{/*Ortadaki box*/
+.giris{/*orta box*/
+    
     text-align:center;
     width:350px;
     box-sizing: border-box;
@@ -19,7 +20,7 @@ body {
     background:#fff;
     border-radius:10px;
     box-shadow:0 0 20px;
-
+    
 }
 .giris h2{
     margin:0 0 10px;
@@ -93,7 +94,7 @@ body {
     }
 .giris a span{
     color:#262626;
-    font-weight:600;
+    font-weight:200;
     margin:auto;
     padding:5px;/*ayarlanacak*/
 }
@@ -107,3 +108,25 @@ body {
         border-color: #189CFC;
 
     }
+/*.kapsama{
+    width:100%;
+    float:left;
+}
+.ortala{
+    width:1200px !important;margin:0 auto !important;
+}
+.header{
+    float:left;
+    width:100%;
+    height:80px;
+    background-color:#005489;
+}*/
+.navbar{
+    height:8vh;
+    width:100%;
+    background-color:#189CFC;
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content:space-around;
+}

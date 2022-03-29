@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Tibet.SatinAlma.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css"href="/css/style.css" />
 </head>
 <body>
-    <header>
+
+@*        <div class="kapsama"></div>
+    <div class="ortala">
+        <a href="#" img src="img/logo.png"></a>
+    </div>*@
+
+        <nav class="navbar">
+        <h4>Tibet & Sultanlar</h4>
+        <a href="Personeller" target="blank">Personel</a>
+        <a href="Birimler" target="blank">Birimler</a>
+        <a href="Tedarikciler" target="blank">Tedarikçiler</a>
+        <a href="talepFormu" target="blank">Talep Formu</a>
+        <a href="stokDurumu" target="blank">Stok Durumu</a>
+        <a href="teknikSatinAlma" target="blank">Teknik Satın Alma Formu</a>
+        <a href="AmirOnay" target="blank">Amir Onay</a>
+        <a href="UstAmirOnay" target="blank">Üst Amir Onay</a>
+    </nav>
+
+@*    <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">Tibet.SatinAlma</a>
@@ -29,7 +48,7 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </header>*@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

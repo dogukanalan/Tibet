@@ -1,0 +1,34 @@
+﻿@page
+@model Tibet.SatinAlma.Pages.talepFormuModel
+@{
+}
+<fieldset>
+	<legend>Talep Formu</legend>
+	<table>
+		<tr><td>Tarih </td><td><input type="date" /></td></tr>
+		<tr><td>Ürün:</td><td><input type="text"/></td></tr>
+		<tr><td>Miktar: </td><td><input type="text" /></td></tr>
+		<tr><td>Birim: </td><td><input type="text" /></td></tr>
+		<tr><td>Kullanım Yeri: </td><td><input type="text" /></td></tr>
+		<tr><td>Not: </td><td><input type="text" /></td></tr>
+	</table>
+</fieldset>
+<br />
+<fieldset>
+	<legend>Talep Bilgileri</legend>
+	<table>
+		<tr><td>Talep Eden Bölüm:</td><td><input type="text" /></td></tr>
+		<tr><td>Talep Eden: </td><td><input type="text" /></td></tr>
+		<tr><td>
+		<button type="button" class="btnTalepKaydet">Kaydet</button>
+		<label class="checkbox">
+			
+			<input type="checkbox" name="onay" /> Teknik Onay
+						<span class="text">
+				verilmiştir.
+			</span>
+		</label>
+		</td></tr>
+	</table>
+	
+</fieldset>

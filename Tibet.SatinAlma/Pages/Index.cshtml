@@ -1,10 +1,30 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Tibet";
 }
-
+<link rel="stylesheet" type="text/css"href="/css/style.css" />
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <div class="giris">
+        <h2> GİRİŞ YAP </h2>
+        <form>
+
+            <div class="pc">
+                <input type="text" placeholder="Kullanıcı Adı" name="" />
+                <span Kullanıcı Adınız></span>
+            </div>
+
+            <div class="pc">
+                <input type="password" placeholder="Parola" name="" />
+                <span Şifreniz></span>
+            </div>
+
+            <div class="pc">
+                <input type="submit" value="Giriş"/>
+            </div>
+
+
+        </form>
+        <a href="#"><span>Şifremi Unuttum</span></a>
+    </div>
 </div>
